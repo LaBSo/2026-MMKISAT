@@ -1,0 +1,1982 @@
+{
+    "season": null,
+    "seasons": [
+        {
+            "id": 1995,
+            "rank": 1,
+            "config": {
+                "priceFactor": 1
+            },
+            "iconId": 39993,
+            "league": {
+                "id": 1781,
+                "uid": "69df3da43afa1ceaf5cd94a2",
+                "name": "World Cup",
+                "sport": "football"
+            },
+            "season": 2026,
+            "leagueId": 1781,
+            "sportyId": "69df3da43afa1c605dcd94a3",
+            "nextRound": 1,
+            "updatedAt": "2026-05-13T06:53:26.871044+00:00",
+            "finalRound": 8,
+            "firstRound": 1,
+            "visibility": "public_access",
+            "nextMatchId": 4450220,
+            "nextMatchStart": "2026-06-11T19:00:00+00:00",
+            "iconUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/39993.svg",
+            "ruleVersion": 13
+        }
+    ],
+    "realMatches": [
+        {
+            "id": 4450220,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609127",
+                "odds": {
+                    "away": "7.82",
+                    "draw": "5.02",
+                    "home": "1.49",
+                    "over": "1.90",
+                    "score": 2.5,
+                    "under": "2.11"
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T09:09:11.721Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    2.03,
+                    0.75
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c4929cdd319": "unexpected",
+                    "69df40483afa1c8241cdd325": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f8187593162336978",
+            "startTime": "2026-06-11T19:00:00+00:00",
+            "updatedAt": "2026-06-07T09:09:13.562+00:00",
+            "realTeamIds": [
+                124268,
+                124265
+            ]
+        },
+        {
+            "id": 4450221,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609153",
+                "odds": {
+                    "away": "2.76",
+                    "draw": "3.97",
+                    "home": "2.60",
+                    "over": "1.88",
+                    "score": 2.5,
+                    "under": "2.14"
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T09:21:58.052Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    1.43,
+                    1.38
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c50f3cdd30b": "unexpected",
+                    "69df40483afa1cfab7cdd35e": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759b5ee33696f",
+            "startTime": "2026-06-12T02:00:00+00:00",
+            "updatedAt": "2026-06-07T09:22:00.994+00:00",
+            "realTeamIds": [
+                124275,
+                124297
+            ]
+        },
+        {
+            "id": 4450222,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609154",
+                "odds": {
+                    "away": "4.41",
+                    "draw": "4.08",
+                    "home": "1.89",
+                    "over": "2.03",
+                    "score": 2.5,
+                    "under": "1.97"
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T09:22:17.309Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    1.65,
+                    0.99
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c8582cdd354": "unexpected",
+                    "69df40483afa1c99decdd36a": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759fc9c336968",
+            "startTime": "2026-06-12T19:00:00+00:00",
+            "updatedAt": "2026-06-07T09:22:19.865+00:00",
+            "realTeamIds": [
+                124298,
+                124319
+            ]
+        },
+        {
+            "id": 4450223,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609133",
+                "odds": {
+                    "away": "3.79",
+                    "draw": "3.97",
+                    "home": "2.06",
+                    "over": "2.01",
+                    "score": 2.5,
+                    "under": "1.99"
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T09:22:31.970Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    1.57,
+                    1.09
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c0563cdd357": "unexpected",
+                    "69df40483afa1c52d1cdd352": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f8187592586336961",
+            "startTime": "2026-06-13T01:00:00+00:00",
+            "updatedAt": "2026-06-07T09:22:33.343+00:00",
+            "realTeamIds": [
+                124282,
+                124309
+            ]
+        },
+        {
+            "id": 4450224,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609130",
+                "odds": {
+                    "away": "1.35",
+                    "draw": "6.10",
+                    "home": "10.73",
+                    "over": "1.70",
+                    "score": 2.5,
+                    "under": "2.43"
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T09:22:44.685Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0.7,
+                    2.35
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1ca813cdd34d": "unexpected",
+                    "69df40483afa1cd8dfcdd32d": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759bfd2336977",
+            "startTime": "2026-06-13T19:00:00+00:00",
+            "updatedAt": "2026-06-07T09:22:46.013+00:00",
+            "realTeamIds": [
+                124283,
+                124257
+            ]
+        },
+        {
+            "id": 4450225,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609131",
+                "odds": {
+                    "away": "5.53",
+                    "draw": "4.66",
+                    "home": "1.65",
+                    "over": "1.78",
+                    "score": 2.5,
+                    "under": "2.28"
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T09:49:07.915Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    1.96,
+                    0.97
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c412ecdd369": "unexpected",
+                    "69df40483afa1c9651cdd356": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f81875937b633699b",
+            "startTime": "2026-06-13T22:00:00+00:00",
+            "updatedAt": "2026-06-07T09:49:09.515+00:00",
+            "realTeamIds": [
+                124295,
+                124285
+            ]
+        },
+        {
+            "id": 4450226,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609155",
+                "odds": {
+                    "away": "1.50",
+                    "draw": "5.11",
+                    "home": "7.29",
+                    "over": "1.78",
+                    "score": 2.5,
+                    "under": "2.28"
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T09:49:17.693Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0.83,
+                    2.1
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c7f19cdd365": "unexpected",
+                    "69df40483afa1c8463cdd360": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f8187593a7d336963",
+            "startTime": "2026-06-14T01:00:00+00:00",
+            "updatedAt": "2026-06-07T09:49:19.036+00:00",
+            "realTeamIds": [
+                124327,
+                124301
+            ]
+        },
+        {
+            "id": 4450227,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609156",
+                "odds": {
+                    "away": "1.73",
+                    "draw": "4.54",
+                    "home": "4.92",
+                    "over": "1.75",
+                    "score": 2.5,
+                    "under": "2.33"
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T09:49:30.154Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    1.05,
+                    1.92
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c37d5cdd366": "unexpected",
+                    "69df40483afa1c7883cdd353": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759118433695d",
+            "startTime": "2026-06-14T04:00:00+00:00",
+            "updatedAt": "2026-06-07T09:49:31.596+00:00",
+            "realTeamIds": [
+                124315,
+                124324
+            ]
+        },
+        {
+            "id": 4450228,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609158",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T09:49:42.372Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1cc2bbcdd348": "unexpected",
+                    "69df40483afa1cdddecdd346": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f81875927f1336994",
+            "startTime": "2026-06-14T17:00:00+00:00",
+            "updatedAt": "2026-06-07T09:49:43.762+00:00",
+            "realTeamIds": [
+                124316,
+                124317
+            ]
+        },
+        {
+            "id": 4450229,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609138",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T10:19:22.228Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c23e1cdd35a": "unexpected",
+                    "69df40483afa1c26cdcdd35c": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f8187590122336972",
+            "startTime": "2026-06-14T20:00:00+00:00",
+            "updatedAt": "2026-06-07T10:19:23.822+00:00",
+            "realTeamIds": [
+                124314,
+                124306
+            ]
+        },
+        {
+            "id": 4450230,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609157",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T10:19:34.549Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c0c13cdd34e": "unexpected",
+                    "69df40483afa1c3df6cdd34b": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759528e33698c",
+            "startTime": "2026-06-14T23:00:00+00:00",
+            "updatedAt": "2026-06-07T10:19:36.081+00:00",
+            "realTeamIds": [
+                124333,
+                124293
+            ]
+        },
+        {
+            "id": 4450231,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609159",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T10:19:46.925Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c2c3dcdd36c": "unexpected",
+                    "69df40483afa1c700ccdd368": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759c2d7336997",
+            "startTime": "2026-06-15T02:00:00+00:00",
+            "updatedAt": "2026-06-07T10:19:48.403+00:00",
+            "realTeamIds": [
+                124322,
+                124304
+            ]
+        },
+        {
+            "id": 4450232,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609162",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T10:20:03.916Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c1099cdd359": "unexpected",
+                    "69df40483afa1cb58dcdd347": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759540d336980",
+            "startTime": "2026-06-15T16:00:00+00:00",
+            "updatedAt": "2026-06-07T10:20:05.841+00:00",
+            "realTeamIds": [
+                124286,
+                124287
+            ]
+        },
+        {
+            "id": 4450233,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609139",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:46:55.532Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c3803cdd36d": "unexpected",
+                    "69df40483afa1c63b7cdd35f": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f8187599e2d33697d",
+            "startTime": "2026-06-15T19:00:00+00:00",
+            "updatedAt": "2026-06-07T11:46:56.895+00:00",
+            "realTeamIds": [
+                124323,
+                124296
+            ]
+        },
+        {
+            "id": 4450234,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609161",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:47:06.456Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c1597cdd355": "unexpected",
+                    "69df40483afa1c4696cdd367": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f8187595684336979",
+            "startTime": "2026-06-15T22:00:00+00:00",
+            "updatedAt": "2026-06-07T11:47:08.188+00:00",
+            "realTeamIds": [
+                124332,
+                124326
+            ]
+        },
+        {
+            "id": 4450235,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609160",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:47:15.869Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c39f9cdd35b": "unexpected",
+                    "69df40483afa1cc23dcdd362": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759675333699d",
+            "startTime": "2026-06-16T01:00:00+00:00",
+            "updatedAt": "2026-06-07T11:47:17.107+00:00",
+            "realTeamIds": [
+                124311,
+                124331
+            ]
+        },
+        {
+            "id": 4450236,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609143",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:47:24.392Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c16c9cdd36b": "unexpected",
+                    "69df40483afa1c2a8ccdd358": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759586b33699a",
+            "startTime": "2026-06-16T19:00:00+00:00",
+            "updatedAt": "2026-06-07T11:47:25.589+00:00",
+            "realTeamIds": [
+                124291,
+                124300
+            ]
+        },
+        {
+            "id": 4450237,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609163",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:47:33.097Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c87abcdd34c": "unexpected",
+                    "69df40483afa1ce52ecdd364": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759273e33698d",
+            "startTime": "2026-06-16T22:00:00+00:00",
+            "updatedAt": "2026-06-07T11:47:34.536+00:00",
+            "realTeamIds": [
+                124330,
+                124305
+            ]
+        },
+        {
+            "id": 4450238,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609145",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:47:47.819Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c0c88cdd34a": "unexpected",
+                    "69df40483afa1cd20ecdd363": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f81875900f633695c",
+            "startTime": "2026-06-17T01:00:00+00:00",
+            "updatedAt": "2026-06-07T11:47:49.459+00:00",
+            "realTeamIds": [
+                124302,
+                124289
+            ]
+        },
+        {
+            "id": 4450239,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609164",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:49:14.591Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c5b33cdd345": "unexpected",
+                    "69df40483afa1c5beecdd34f": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f818759d3f2336969",
+            "startTime": "2026-06-17T04:00:00+00:00",
+            "updatedAt": "2026-06-07T11:49:15.989+00:00",
+            "realTeamIds": [
+                124284,
+                124307
+            ]
+        },
+        {
+            "id": 4450240,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609166",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:49:27.659Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c3369cdd351": "unexpected",
+                    "69df40483afa1cc0cbcdd344": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f81875910143369bb",
+            "startTime": "2026-06-17T17:00:00+00:00",
+            "updatedAt": "2026-06-07T11:49:28.894+00:00",
+            "realTeamIds": [
+                124281,
+                124320
+            ]
+        },
+        {
+            "id": 4450241,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609149",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:49:41.726Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c1871cdd343": "unexpected",
+                    "69df40483afa1c5e2acdd342": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f81875938a6336967",
+            "startTime": "2026-06-17T20:00:00+00:00",
+            "updatedAt": "2026-06-07T11:49:43.182+00:00",
+            "realTeamIds": [
+                124321,
+                124288
+            ]
+        },
+        {
+            "id": 4450242,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609167",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:49:52.122Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c9ce7cdd35d": "unexpected",
+                    "69df40483afa1caae3cdd349": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f81875923e23369ac",
+            "startTime": "2026-06-17T23:00:00+00:00",
+            "updatedAt": "2026-06-07T11:49:54.186+00:00",
+            "realTeamIds": [
+                124310,
+                124334
+            ]
+        },
+        {
+            "id": 4450243,
+            "bout": 0,
+            "score": [
+                0,
+                0
+            ],
+            "status": "pending",
+            "details": {
+                "uid": "19609165",
+                "odds": {
+                    "away": 3,
+                    "draw": 3,
+                    "home": 3,
+                    "over": 2,
+                    "score": 2.5,
+                    "under": 2
+                },
+                "user": "5caed137e598944611fca3dd",
+                "settle": {
+                    "periods": []
+                },
+                "subScore": [
+                    0,
+                    0
+                ],
+                "autoconfirm": true,
+                "lastUpdateAt": "2026-06-07T11:50:03.759Z",
+                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "expectedGoals": [
+                    0,
+                    0
+                ],
+                "lineupFallback": "expected",
+                "teamLineupFallbacks": {
+                    "69df40483afa1c2a1fcdd350": "unexpected",
+                    "69df40483afa1c881dcdd361": "unexpected"
+                },
+                "totalScoreWithoutShootouts": [
+                    0,
+                    0
+                ]
+            },
+            "gameweek": 1,
+            "seasonId": 1995,
+            "sportyId": "69df405f8187598e143369b1",
+            "startTime": "2026-06-18T02:00:00+00:00",
+            "updatedAt": "2026-06-07T11:50:05.076+00:00",
+            "realTeamIds": [
+                124325,
+                124294
+            ]
+        }
+    ],
+    "realTeams": [
+        {
+            "id": 124268,
+            "abbr": "MEX",
+            "name": "Mexico",
+            "extra": {},
+            "shirtId": 40046,
+            "emblemId": 31188,
+            "sportyId": "69df40483afa1c4929cdd319",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40046.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31188.svg"
+        },
+        {
+            "id": 124265,
+            "abbr": "ZAF",
+            "name": "South Africa",
+            "extra": {},
+            "shirtId": 40047,
+            "emblemId": 35071,
+            "sportyId": "69df40483afa1c8241cdd325",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40047.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/35071.svg"
+        },
+        {
+            "id": 124275,
+            "abbr": "KOR",
+            "name": "South Korea",
+            "extra": {},
+            "shirtId": 40045,
+            "emblemId": 31171,
+            "sportyId": "69df40483afa1c50f3cdd30b",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40045.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31171.svg"
+        },
+        {
+            "id": 124297,
+            "abbr": "CZE",
+            "name": "Czechia",
+            "extra": {},
+            "shirtId": 40030,
+            "emblemId": 22817,
+            "sportyId": "69df40483afa1cfab7cdd35e",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40030.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22817.svg"
+        },
+        {
+            "id": 124298,
+            "abbr": "CAN",
+            "name": "Canada",
+            "extra": {},
+            "shirtId": 40029,
+            "emblemId": 31182,
+            "sportyId": "69df40483afa1c99decdd36a",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40029.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31182.svg"
+        },
+        {
+            "id": 124319,
+            "abbr": "BIH",
+            "name": "Bosnia and Herzegovina",
+            "extra": {},
+            "shirtId": 40014,
+            "emblemId": 22921,
+            "sportyId": "69df40483afa1c8582cdd354",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40014.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22921.svg"
+        },
+        {
+            "id": 124282,
+            "abbr": "USA",
+            "name": "United States",
+            "extra": {},
+            "shirtId": 40043,
+            "emblemId": 31162,
+            "sportyId": "69df40483afa1c52d1cdd352",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40043.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31162.svg"
+        },
+        {
+            "id": 124309,
+            "abbr": "PRY",
+            "name": "Paraguay",
+            "extra": {},
+            "shirtId": 40021,
+            "emblemId": 24279,
+            "sportyId": "69df40483afa1c0563cdd357",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40021.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/24279.svg"
+        },
+        {
+            "id": 124283,
+            "abbr": "QAT",
+            "name": "Qatar",
+            "extra": {},
+            "shirtId": 40042,
+            "emblemId": 31167,
+            "sportyId": "69df40483afa1ca813cdd34d",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40042.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31167.svg"
+        },
+        {
+            "id": 124257,
+            "abbr": "SUI",
+            "name": "Switzerland",
+            "extra": {},
+            "shirtId": 40048,
+            "emblemId": 22796,
+            "sportyId": "69df40483afa1cd8dfcdd32d",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40048.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22796.svg"
+        },
+        {
+            "id": 124295,
+            "abbr": "BRA",
+            "name": "Brazil",
+            "extra": {},
+            "shirtId": 40032,
+            "emblemId": 31184,
+            "sportyId": "69df40483afa1c412ecdd369",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40032.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31184.svg"
+        },
+        {
+            "id": 124285,
+            "abbr": "MAR",
+            "name": "Morocco",
+            "extra": {},
+            "shirtId": 40040,
+            "emblemId": 31170,
+            "sportyId": "69df40483afa1c9651cdd356",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40040.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31170.svg"
+        },
+        {
+            "id": 124327,
+            "abbr": "HTI",
+            "name": "Haiti",
+            "extra": {},
+            "shirtId": 40006,
+            "emblemId": 39996,
+            "sportyId": "69df40483afa1c8463cdd360",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40006.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/39996.svg"
+        },
+        {
+            "id": 124301,
+            "abbr": "SCO",
+            "name": "Scotland",
+            "extra": {},
+            "shirtId": 40027,
+            "emblemId": 22829,
+            "sportyId": "69df40483afa1c7f19cdd365",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40027.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22829.svg"
+        },
+        {
+            "id": 124315,
+            "abbr": "AUS",
+            "name": "Australia",
+            "extra": {},
+            "shirtId": 40017,
+            "emblemId": 31186,
+            "sportyId": "69df40483afa1c7883cdd353",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40017.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31186.svg"
+        },
+        {
+            "id": 124324,
+            "abbr": "TUR",
+            "name": "Türkiye",
+            "extra": {},
+            "shirtId": 40009,
+            "emblemId": 22841,
+            "sportyId": "69df40483afa1c37d5cdd366",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40009.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22841.svg"
+        },
+        {
+            "id": 124316,
+            "abbr": "GER",
+            "name": "Germany",
+            "extra": {},
+            "shirtId": 40016,
+            "emblemId": 31175,
+            "sportyId": "69df40483afa1cc2bbcdd348",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40016.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31175.svg"
+        },
+        {
+            "id": 124317,
+            "abbr": "CUW",
+            "name": "Curacao",
+            "extra": {},
+            "shirtId": 40015,
+            "emblemId": 39999,
+            "sportyId": "69df40483afa1cdddecdd346",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40015.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/39999.svg"
+        },
+        {
+            "id": 124314,
+            "abbr": "NED",
+            "name": "Netherlands",
+            "extra": {},
+            "shirtId": 40018,
+            "emblemId": 22839,
+            "sportyId": "69df40483afa1c26cdcdd35c",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40018.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22839.svg"
+        },
+        {
+            "id": 124306,
+            "abbr": "JPN",
+            "name": "Japan",
+            "extra": {},
+            "shirtId": 40023,
+            "emblemId": 31172,
+            "sportyId": "69df40483afa1c23e1cdd35a",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40023.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31172.svg"
+        },
+        {
+            "id": 124333,
+            "abbr": "CIV",
+            "name": "Ivory Coast",
+            "extra": {},
+            "shirtId": 40002,
+            "emblemId": 27823,
+            "sportyId": "69df40483afa1c0c13cdd34e",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40002.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/27823.svg"
+        },
+        {
+            "id": 124293,
+            "abbr": "ECU",
+            "name": "Ecuador",
+            "extra": {},
+            "shirtId": 40034,
+            "emblemId": 31178,
+            "sportyId": "69df40483afa1c3df6cdd34b",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40034.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31178.svg"
+        },
+        {
+            "id": 124322,
+            "abbr": "SWE",
+            "name": "Sweden",
+            "extra": {},
+            "shirtId": 40011,
+            "emblemId": 22786,
+            "sportyId": "69df40483afa1c700ccdd368",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40011.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22786.svg"
+        },
+        {
+            "id": 124304,
+            "abbr": "TUN",
+            "name": "Tunisia",
+            "extra": {},
+            "shirtId": 40025,
+            "emblemId": 31163,
+            "sportyId": "69df40483afa1c2c3dcdd36c",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40025.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31163.svg"
+        },
+        {
+            "id": 124286,
+            "abbr": "ESP",
+            "name": "Spain",
+            "extra": {},
+            "shirtId": 40039,
+            "emblemId": 22788,
+            "sportyId": "69df40483afa1c1099cdd359",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40039.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22788.svg"
+        },
+        {
+            "id": 124287,
+            "abbr": "CPV",
+            "name": "Cape Verde",
+            "extra": {},
+            "shirtId": 40038,
+            "emblemId": 27812,
+            "sportyId": "69df40483afa1cb58dcdd347",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40038.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/27812.svg"
+        },
+        {
+            "id": 124323,
+            "abbr": "BEL",
+            "name": "Belgium",
+            "extra": {},
+            "shirtId": 40010,
+            "emblemId": 31185,
+            "sportyId": "69df40483afa1c3803cdd36d",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40010.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31185.svg"
+        },
+        {
+            "id": 124296,
+            "abbr": "EGY",
+            "name": "Egypt",
+            "extra": {},
+            "shirtId": 40031,
+            "emblemId": 27804,
+            "sportyId": "69df40483afa1c63b7cdd35f",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40031.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/27804.svg"
+        },
+        {
+            "id": 124332,
+            "abbr": "KSA",
+            "name": "Saudi Arabia",
+            "extra": {},
+            "shirtId": 40003,
+            "emblemId": 31166,
+            "sportyId": "69df40483afa1c1597cdd355",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40003.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31166.svg"
+        },
+        {
+            "id": 124326,
+            "abbr": "URU",
+            "name": "Uruguay",
+            "extra": {},
+            "shirtId": 40007,
+            "emblemId": 31190,
+            "sportyId": "69df40483afa1c4696cdd367",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40007.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31190.svg"
+        },
+        {
+            "id": 124311,
+            "abbr": "IRN",
+            "name": "Iran",
+            "extra": {},
+            "shirtId": 40019,
+            "emblemId": 31173,
+            "sportyId": "69df40483afa1c39f9cdd35b",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40019.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31173.svg"
+        },
+        {
+            "id": 124331,
+            "abbr": "NZL",
+            "name": "New Zealand",
+            "extra": {},
+            "shirtId": 40004,
+            "emblemId": 39994,
+            "sportyId": "69df40483afa1cc23dcdd362",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40004.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/39994.svg"
+        },
+        {
+            "id": 124291,
+            "abbr": "FRA",
+            "name": "France",
+            "extra": {},
+            "shirtId": 40035,
+            "emblemId": 22806,
+            "sportyId": "69df40483afa1c2a8ccdd358",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40035.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22806.svg"
+        },
+        {
+            "id": 124300,
+            "abbr": "SEN",
+            "name": "Senegal",
+            "extra": {},
+            "shirtId": 40028,
+            "emblemId": 31165,
+            "sportyId": "69df40483afa1c16c9cdd36b",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40028.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31165.svg"
+        },
+        {
+            "id": 124330,
+            "abbr": "IRQ",
+            "name": "Iraq",
+            "extra": {},
+            "shirtId": 40005,
+            "emblemId": 39995,
+            "sportyId": "69df40483afa1ce52ecdd364",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40005.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/39995.svg"
+        },
+        {
+            "id": 124305,
+            "abbr": "NOR",
+            "name": "Norway",
+            "extra": {},
+            "shirtId": 40024,
+            "emblemId": 22939,
+            "sportyId": "69df40483afa1c87abcdd34c",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40024.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22939.svg"
+        },
+        {
+            "id": 124302,
+            "abbr": "ARG",
+            "name": "Argentina",
+            "extra": {},
+            "shirtId": 40026,
+            "emblemId": 31187,
+            "sportyId": "69df40483afa1cd20ecdd363",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40026.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31187.svg"
+        },
+        {
+            "id": 124289,
+            "abbr": "DZA",
+            "name": "Algeria",
+            "extra": {},
+            "shirtId": 40036,
+            "emblemId": 27821,
+            "sportyId": "69df40483afa1c0c88cdd34a",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40036.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/27821.svg"
+        },
+        {
+            "id": 124284,
+            "abbr": "AUT",
+            "name": "Austria",
+            "extra": {},
+            "shirtId": 40041,
+            "emblemId": 22827,
+            "sportyId": "69df40483afa1c5beecdd34f",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40041.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22827.svg"
+        },
+        {
+            "id": 124307,
+            "abbr": "JOR",
+            "name": "Jordan",
+            "extra": {},
+            "shirtId": 40022,
+            "emblemId": 40000,
+            "sportyId": "69df40483afa1c5b33cdd345",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40022.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40000.svg"
+        },
+        {
+            "id": 124281,
+            "abbr": "POR",
+            "name": "Portugal",
+            "extra": {},
+            "shirtId": 40044,
+            "emblemId": 22778,
+            "sportyId": "69df40483afa1c3369cdd351",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40044.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22778.svg"
+        },
+        {
+            "id": 124320,
+            "abbr": "COD",
+            "name": "Congo DR",
+            "extra": {},
+            "shirtId": 40013,
+            "emblemId": 39998,
+            "sportyId": "69df40483afa1cc0cbcdd344",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40013.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/39998.svg"
+        },
+        {
+            "id": 124321,
+            "abbr": "ENG",
+            "name": "England",
+            "extra": {},
+            "shirtId": 40012,
+            "emblemId": 22869,
+            "sportyId": "69df40483afa1c5e2acdd342",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40012.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22869.svg"
+        },
+        {
+            "id": 124288,
+            "abbr": "CRO",
+            "name": "Croatia",
+            "extra": {},
+            "shirtId": 40037,
+            "emblemId": 22851,
+            "sportyId": "69df40483afa1c1871cdd343",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40037.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/22851.svg"
+        },
+        {
+            "id": 124310,
+            "abbr": "GHA",
+            "name": "Ghana",
+            "extra": {},
+            "shirtId": 40020,
+            "emblemId": 31174,
+            "sportyId": "69df40483afa1caae3cdd349",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40020.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/31174.svg"
+        },
+        {
+            "id": 124334,
+            "abbr": "PAN",
+            "name": "Panama",
+            "extra": {},
+            "shirtId": 40001,
+            "emblemId": 36001,
+            "sportyId": "69df40483afa1c9ce7cdd35d",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40001.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/36001.svg"
+        },
+        {
+            "id": 124325,
+            "abbr": "UZB",
+            "name": "Uzbekistan",
+            "extra": {},
+            "shirtId": 40008,
+            "emblemId": 39997,
+            "sportyId": "69df40483afa1c881dcdd361",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40008.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/39997.svg"
+        },
+        {
+            "id": 124294,
+            "abbr": "COL",
+            "name": "Colombia",
+            "extra": {},
+            "shirtId": 40033,
+            "emblemId": 24268,
+            "sportyId": "69df40483afa1c2a1fcdd350",
+            "shirtUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/40033.svg",
+            "emblemUrl": "https://fantasy.assets.scoutgg.net/uploads/assets/24268.svg"
+        }
+    ],
+    "matchInCollections": [
+        {
+            "id": "95053|4450220",
+            "gameweek": 1,
+            "realMatchId": 4450220,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450221",
+            "gameweek": 1,
+            "realMatchId": 4450221,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450222",
+            "gameweek": 1,
+            "realMatchId": 4450222,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450223",
+            "gameweek": 1,
+            "realMatchId": 4450223,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450224",
+            "gameweek": 1,
+            "realMatchId": 4450224,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450225",
+            "gameweek": 1,
+            "realMatchId": 4450225,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450226",
+            "gameweek": 1,
+            "realMatchId": 4450226,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450227",
+            "gameweek": 1,
+            "realMatchId": 4450227,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450228",
+            "gameweek": 1,
+            "realMatchId": 4450228,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450229",
+            "gameweek": 1,
+            "realMatchId": 4450229,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450230",
+            "gameweek": 1,
+            "realMatchId": 4450230,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450231",
+            "gameweek": 1,
+            "realMatchId": 4450231,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450232",
+            "gameweek": 1,
+            "realMatchId": 4450232,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450233",
+            "gameweek": 1,
+            "realMatchId": 4450233,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450234",
+            "gameweek": 1,
+            "realMatchId": 4450234,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450235",
+            "gameweek": 1,
+            "realMatchId": 4450235,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450236",
+            "gameweek": 1,
+            "realMatchId": 4450236,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450237",
+            "gameweek": 1,
+            "realMatchId": 4450237,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450238",
+            "gameweek": 1,
+            "realMatchId": 4450238,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450239",
+            "gameweek": 1,
+            "realMatchId": 4450239,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450240",
+            "gameweek": 1,
+            "realMatchId": 4450240,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450241",
+            "gameweek": 1,
+            "realMatchId": 4450241,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450242",
+            "gameweek": 1,
+            "realMatchId": 4450242,
+            "matchCollectionId": 95053
+        },
+        {
+            "id": "95053|4450243",
+            "gameweek": 1,
+            "realMatchId": 4450243,
+            "matchCollectionId": 95053
+        }
+    ],
+    "sports": null
+}
