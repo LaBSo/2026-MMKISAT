@@ -38,6 +38,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609127",
                 "odds": {
                     "away": "7.82",
                     "draw": "5.02",
@@ -46,19 +47,26 @@
                     "score": 2.5,
                     "under": "2.11"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T11:54:38.846Z",
-                "lastUpdateBy": "5c0a81252baf821f69c5095d",
+                "lastUpdateAt": "2026-06-10T09:19:35.050Z",
+                "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     2.03,
                     0.75
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c4929cdd319": "unexpected",
+                    "69df40483afa1c8241cdd325": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -68,7 +76,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f8187593162336978",
             "startTime": "2026-06-11T19:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T09:19:36.789+00:00",
             "realTeamIds": [
                 124268,
                 124265
@@ -83,6 +91,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609153",
                 "odds": {
                     "away": "2.76",
                     "draw": "3.97",
@@ -91,19 +100,26 @@
                     "score": 2.5,
                     "under": "2.14"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-07T09:21:58.052Z",
-                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "lastUpdateAt": "2026-06-10T09:34:45.913Z",
+                "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     1.43,
                     1.38
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c50f3cdd30b": "unexpected",
+                    "69df40483afa1cfab7cdd35e": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -113,7 +129,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759b5ee33696f",
             "startTime": "2026-06-12T02:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T09:34:49.149+00:00",
             "realTeamIds": [
                 124275,
                 124297
@@ -128,6 +144,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609154",
                 "odds": {
                     "away": "4.41",
                     "draw": "4.08",
@@ -136,19 +153,26 @@
                     "score": 2.5,
                     "under": "1.97"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-07T09:22:17.309Z",
-                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "lastUpdateAt": "2026-06-10T09:41:12.991Z",
+                "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     1.65,
                     0.99
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c8582cdd354": "unexpected",
+                    "69df40483afa1c99decdd36a": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -158,7 +182,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759fc9c336968",
             "startTime": "2026-06-12T19:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T09:41:14.47+00:00",
             "realTeamIds": [
                 124298,
                 124319
@@ -173,6 +197,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609133",
                 "odds": {
                     "away": "3.79",
                     "draw": "3.97",
@@ -181,19 +206,26 @@
                     "score": 2.5,
                     "under": "1.99"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T11:56:42.105Z",
-                "lastUpdateBy": "5c0a81252baf821f69c5095d",
+                "lastUpdateAt": "2026-06-10T09:56:50.373Z",
+                "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     1.57,
                     1.09
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c0563cdd357": "unexpected",
+                    "69df40483afa1c52d1cdd352": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -203,7 +235,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f8187592586336961",
             "startTime": "2026-06-13T01:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T09:56:51.862+00:00",
             "realTeamIds": [
                 124282,
                 124309
@@ -227,13 +259,17 @@
                     "score": 2.5,
                     "under": "2.43"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-07T09:22:44.685Z",
-                "lastUpdateBy": "5caed137e598944611fca3dd",
+                "lastUpdateAt": "2026-06-10T09:58:09.322Z",
+                "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0.7,
                     2.35
@@ -252,7 +288,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759bfd2336977",
             "startTime": "2026-06-13T19:00:00+00:00",
-            "updatedAt": "2026-06-09T07:28:49.974+00:00",
+            "updatedAt": "2026-06-10T09:58:11.534+00:00",
             "realTeamIds": [
                 124283,
                 124257
@@ -276,12 +312,16 @@
                     "score": 2.5,
                     "under": "2.28"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T07:56:57.368Z",
+                "lastUpdateAt": "2026-06-10T10:07:44.294Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     1.96,
@@ -301,7 +341,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f81875937b633699b",
             "startTime": "2026-06-13T22:00:00+00:00",
-            "updatedAt": "2026-06-09T07:28:49.974+00:00",
+            "updatedAt": "2026-06-10T10:07:45.88+00:00",
             "realTeamIds": [
                 124295,
                 124285
@@ -325,12 +365,16 @@
                     "score": 2.5,
                     "under": "2.28"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T07:25:09.930Z",
+                "lastUpdateAt": "2026-06-10T10:25:52.407Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0.83,
@@ -350,7 +394,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f8187593a7d336963",
             "startTime": "2026-06-14T01:00:00+00:00",
-            "updatedAt": "2026-06-09T07:28:49.974+00:00",
+            "updatedAt": "2026-06-10T10:25:53.981+00:00",
             "realTeamIds": [
                 124327,
                 124301
@@ -374,12 +418,16 @@
                     "score": 2.5,
                     "under": "2.33"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T07:43:50.765Z",
+                "lastUpdateAt": "2026-06-10T10:29:28.183Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     1.05,
@@ -399,7 +447,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759118433695d",
             "startTime": "2026-06-14T04:00:00+00:00",
-            "updatedAt": "2026-06-09T07:28:49.974+00:00",
+            "updatedAt": "2026-06-10T10:29:29.811+00:00",
             "realTeamIds": [
                 124315,
                 124324
@@ -414,6 +462,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609158",
                 "odds": {
                     "away": "14.54",
                     "draw": "7.01",
@@ -422,19 +471,26 @@
                     "score": 2.5,
                     "under": "2.49"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T08:03:38.448Z",
+                "lastUpdateAt": "2026-06-10T10:37:30.984Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     2.5,
                     0.6
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1cc2bbcdd348": "unexpected",
+                    "69df40483afa1cdddecdd346": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -444,7 +500,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f81875927f1336994",
             "startTime": "2026-06-14T17:00:00+00:00",
-            "updatedAt": "2026-06-08T18:20:18.995+00:00",
+            "updatedAt": "2026-06-10T10:37:32.786+00:00",
             "realTeamIds": [
                 124316,
                 124317
@@ -459,6 +515,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609138",
                 "odds": {
                     "away": "3.62",
                     "draw": "4.30",
@@ -467,19 +524,26 @@
                     "score": 2.5,
                     "under": "2.44"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T18:19:46.372Z",
-                "lastUpdateBy": "5b6aa3da0bdb29291a289d94",
+                "lastUpdateAt": "2026-06-10T10:46:05.252Z",
+                "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     1.78,
                     1.28
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c23e1cdd35a": "unexpected",
+                    "69df40483afa1c26cdcdd35c": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -489,7 +553,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f8187590122336972",
             "startTime": "2026-06-14T20:00:00+00:00",
-            "updatedAt": "2026-06-08T18:20:18.995+00:00",
+            "updatedAt": "2026-06-10T10:46:06.796+00:00",
             "realTeamIds": [
                 124314,
                 124306
@@ -504,6 +568,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609157",
                 "odds": {
                     "away": "2.23",
                     "draw": "3.96",
@@ -512,19 +577,26 @@
                     "score": 2.5,
                     "under": "2.06"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T08:19:42.816Z",
+                "lastUpdateAt": "2026-06-10T11:26:34.012Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     1.2,
                     1.53
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c0c13cdd34e": "unexpected",
+                    "69df40483afa1c3df6cdd34b": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -534,7 +606,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759528e33698c",
             "startTime": "2026-06-14T23:00:00+00:00",
-            "updatedAt": "2026-06-08T18:45:01.89+00:00",
+            "updatedAt": "2026-06-10T11:26:36.009+00:00",
             "realTeamIds": [
                 124333,
                 124293
@@ -549,6 +621,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609159",
                 "odds": {
                     "away": "3.94",
                     "draw": "4.18",
@@ -557,19 +630,26 @@
                     "score": 2.5,
                     "under": "2.19"
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T08:22:18.811Z",
+                "lastUpdateAt": "2026-06-10T11:27:38.552Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     1.71,
                     1.14
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c2c3dcdd36c": "unexpected",
+                    "69df40483afa1c700ccdd368": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -579,7 +659,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759c2d7336997",
             "startTime": "2026-06-15T02:00:00+00:00",
-            "updatedAt": "2026-06-08T18:20:18.995+00:00",
+            "updatedAt": "2026-06-10T11:27:40.466+00:00",
             "realTeamIds": [
                 124322,
                 124304
@@ -594,6 +674,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609162",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -602,19 +683,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T09:57:59.437Z",
+                "lastUpdateAt": "2026-06-10T11:41:43.624Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c1099cdd359": "unexpected",
+                    "69df40483afa1cb58dcdd347": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -624,7 +712,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759540d336980",
             "startTime": "2026-06-15T16:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T11:41:45.461+00:00",
             "realTeamIds": [
                 124286,
                 124287
@@ -639,6 +727,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609139",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -647,19 +736,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T08:38:06.454Z",
+                "lastUpdateAt": "2026-06-10T11:55:40.898Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c3803cdd36d": "unexpected",
+                    "69df40483afa1c63b7cdd35f": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -669,7 +765,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f8187599e2d33697d",
             "startTime": "2026-06-15T19:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T11:55:42.591+00:00",
             "realTeamIds": [
                 124323,
                 124296
@@ -684,6 +780,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609161",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -692,19 +789,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T08:43:27.959Z",
+                "lastUpdateAt": "2026-06-10T12:22:59.786Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c1597cdd355": "unexpected",
+                    "69df40483afa1c4696cdd367": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -714,7 +818,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f8187595684336979",
             "startTime": "2026-06-15T22:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T12:23:01.851+00:00",
             "realTeamIds": [
                 124332,
                 124326
@@ -729,6 +833,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609160",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -737,19 +842,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T09:18:28.042Z",
+                "lastUpdateAt": "2026-06-10T12:26:53.901Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c39f9cdd35b": "unexpected",
+                    "69df40483afa1cc23dcdd362": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -759,7 +871,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759675333699d",
             "startTime": "2026-06-16T01:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T12:26:55.926+00:00",
             "realTeamIds": [
                 124311,
                 124331
@@ -774,6 +886,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609143",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -782,19 +895,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T09:17:32.669Z",
+                "lastUpdateAt": "2026-06-10T12:28:20.892Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c16c9cdd36b": "unexpected",
+                    "69df40483afa1c2a8ccdd358": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -804,7 +924,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759586b33699a",
             "startTime": "2026-06-16T19:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T12:28:22.398+00:00",
             "realTeamIds": [
                 124291,
                 124300
@@ -819,6 +939,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609163",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -827,19 +948,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T09:53:29.145Z",
+                "lastUpdateAt": "2026-06-10T12:48:00.493Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c87abcdd34c": "unexpected",
+                    "69df40483afa1ce52ecdd364": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -849,7 +977,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759273e33698d",
             "startTime": "2026-06-16T22:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T12:48:02.467+00:00",
             "realTeamIds": [
                 124330,
                 124305
@@ -864,6 +992,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609145",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -872,19 +1001,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T09:57:41.991Z",
+                "lastUpdateAt": "2026-06-10T13:01:08.963Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c0c88cdd34a": "unexpected",
+                    "69df40483afa1cd20ecdd363": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -894,7 +1030,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f81875900f633695c",
             "startTime": "2026-06-17T01:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T13:01:10.505+00:00",
             "realTeamIds": [
                 124302,
                 124289
@@ -909,6 +1045,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609164",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -917,19 +1054,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T09:58:48.930Z",
+                "lastUpdateAt": "2026-06-10T13:05:10.384Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c5b33cdd345": "unexpected",
+                    "69df40483afa1c5beecdd34f": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -939,7 +1083,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759d3f2336969",
             "startTime": "2026-06-17T04:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T13:05:12.018+00:00",
             "realTeamIds": [
                 124284,
                 124307
@@ -954,6 +1098,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609166",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -962,19 +1107,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T10:18:22.780Z",
+                "lastUpdateAt": "2026-06-10T13:12:57.086Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c3369cdd351": "unexpected",
+                    "69df40483afa1cc0cbcdd344": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -984,7 +1136,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f81875910143369bb",
             "startTime": "2026-06-17T17:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T13:12:58.649+00:00",
             "realTeamIds": [
                 124281,
                 124320
@@ -999,6 +1151,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609149",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -1007,19 +1160,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T10:28:15.110Z",
+                "lastUpdateAt": "2026-06-10T13:18:43.055Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c1871cdd343": "unexpected",
+                    "69df40483afa1c5e2acdd342": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -1029,7 +1189,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f81875938a6336967",
             "startTime": "2026-06-17T20:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T13:18:45.451+00:00",
             "realTeamIds": [
                 124321,
                 124288
@@ -1044,6 +1204,7 @@
             ],
             "status": "pending",
             "details": {
+                "uid": "19609167",
                 "odds": {
                     "away": 3,
                     "draw": 3,
@@ -1052,19 +1213,26 @@
                     "score": 2.5,
                     "under": 2
                 },
+                "user": "5ab2600d13ea192ddb5a379a",
+                "settle": {
+                    "periods": []
+                },
                 "subScore": [
                     0,
                     0
                 ],
                 "autoconfirm": true,
-                "lastUpdateAt": "2026-06-08T10:32:35.476Z",
+                "lastUpdateAt": "2026-06-10T13:24:28.114Z",
                 "lastUpdateBy": "5ab2600d13ea192ddb5a379a",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
-                "teamLineupFallbacks": {},
+                "teamLineupFallbacks": {
+                    "69df40483afa1c9ce7cdd35d": "unexpected",
+                    "69df40483afa1caae3cdd349": "unexpected"
+                },
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -1074,7 +1242,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f81875923e23369ac",
             "startTime": "2026-06-17T23:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T13:24:29.593+00:00",
             "realTeamIds": [
                 124310,
                 124334
@@ -1119,7 +1287,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f8187598e143369b1",
             "startTime": "2026-06-18T02:00:00+00:00",
-            "updatedAt": "2026-06-08T16:05:26.24+00:00",
+            "updatedAt": "2026-06-10T06:12:22.671+00:00",
             "realTeamIds": [
                 124325,
                 124294
@@ -1164,6 +1332,7 @@
                     0
                 ],
                 "lineupFallback": "expected",
+                "teamLineupFallbacks": {},
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -1173,7 +1342,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f81875925f03369b2",
             "startTime": "2026-06-18T16:00:00+00:00",
-            "updatedAt": "2026-05-08T07:49:07.83+00:00",
+            "updatedAt": "2026-06-10T06:12:22.671+00:00",
             "realTeamIds": [
                 124297,
                 124265
@@ -1213,11 +1382,14 @@
                     0
                 ],
                 "autoconfirm": true,
+                "lastUpdateAt": "2026-06-09T19:39:07.501Z",
+                "lastUpdateBy": "5c0a81252baf821f69c5095d",
                 "expectedGoals": [
                     0,
                     0
                 ],
                 "lineupFallback": "expected",
+                "teamLineupFallbacks": {},
                 "totalScoreWithoutShootouts": [
                     0,
                     0
@@ -1227,7 +1399,7 @@
             "seasonId": 1995,
             "sportyId": "69df405f818759b9e633699e",
             "startTime": "2026-06-18T19:00:00+00:00",
-            "updatedAt": "2026-05-08T07:49:07.83+00:00",
+            "updatedAt": "2026-06-10T06:12:22.671+00:00",
             "realTeamIds": [
                 124257,
                 124319
