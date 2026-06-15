@@ -255,13 +255,16 @@ def _load_csv(path) -> list[Player]:
             total_points=int(row.get("totalPoints", 0) or 0),
             form=float(row.get("form", 0) or 0),
         )
-        last_pts  = float(row.get("lastPoints", 0) or 0)
-        xpts      = float(row.get("xPts", 0) or 0)
-        # Priority: model xPts > last round pts > form > price proxy
+        last_pts       = float(row.get("lastPoints", 0) or 0)
+        xpts_total     = float(row.get("xPts", 0) or 0)
+        xpts_round     = float(row.get("xPtsRound", 0) or 0)
+        p.xpts_total   = xpts_total
+        p.xpts_round   = xpts_round if xpts_round > 0 else xpts_total
+        # Default expected_points = tournament total (can be overridden before optimizing)
         p.expected_points = (
-            xpts      if xpts > 0 else
-            last_pts  if last_pts > 0 else
-            p.form    if p.form > 0 else
+            xpts_total if xpts_total > 0 else
+            last_pts   if last_pts   > 0 else
+            p.form     if p.form     > 0 else
             max(1.0, p.price * 0.6)
         )
         p.lineup = str(row.get("lineup", "unknown"))
@@ -349,7 +352,7 @@ def display_squad_pitch(squad: Squad):
                 f"""<div style="background:{POS_COLOR[p.position]};border-radius:8px;
                     padding:6px 4px;text-align:center;font-size:12px;color:#fff;margin:2px">
                     <b>{p.name}{cap_label}</b><br>{p.team} · £{p.price}M<br>
-                    <span style="font-size:14px">{p.expected_points:.1f} xPts</span>
+                    <span style="font-size:14px">{p.xpts_round:.1f} GW1 · {p.xpts_total:.1f} tot</span>
                 </div>""",
                 unsafe_allow_html=True,
             )
@@ -376,7 +379,8 @@ with st.sidebar:
     st.markdown("---")
     st.subheader("Settings")
 
-    budget = st.number_input("Budget (M€)", min_value=50.0, max_value=200.0, value=100.0, step=0.5)
+    budget = st.slider("Budjetti (M€)", min_value=80.0, max_value=110.0, value=110.0, step=0.5,
+                       help="Pelin maksimi on 110 M€.")
     gameweek = st.selectbox(
         "Gameweek",
         options=[gw["round"] for gw in GAMEWEEKS],
@@ -388,6 +392,18 @@ with st.sidebar:
 
     free_tx = FREE_TRANSFERS.get(gameweek, 0)
     st.info(f"Free transfers this round: **{free_tx}**")
+
+    xpts_model = st.radio(
+        "xPts-malli",
+        options=["Koko turnaus", "Vain tämä kierros"],
+        index=0,
+        help=(
+            "**Koko turnaus** — pisteytys GW1–8, kerrottu todennäköisyydellä edetä jatkoon. "
+            "Paras pitkän aikavälin joukkuevalintaan.\n\n"
+            "**Vain tämä kierros** — vain nykyisen kierroksen ottelu (todelliset xG/kertoimet jos saatavilla). "
+            "Hyödyllinen kun haluat optimoida juuri tulevan viikon."
+        ),
+    )
 
     use_wildcard = st.checkbox(
         "Use Wildcard",
@@ -420,6 +436,11 @@ with tab_optimize:
     col1, col2 = st.columns([1, 2])
     with col1:
         if st.button("🚀 Run Optimizer", type="primary", use_container_width=True):
+            # Apply the chosen xPts model to every player before solving
+            use_round_model = (xpts_model == "Vain tämä kierros")
+            for p in st.session_state.players:
+                p.expected_points = p.xpts_round if use_round_model else p.xpts_total
+
             with st.spinner("Solving..."):
                 squad = optimize_squad(
                     players=st.session_state.players,
@@ -428,17 +449,19 @@ with tab_optimize:
                     locked_ids=locked_ids,
                     excluded_ids=excluded_ids,
                 )
+            model_label = "kierros" if use_round_model else "turnaus"
             if squad is None:
                 st.error("No valid squad found — try relaxing constraints or increasing budget.")
             else:
                 st.session_state.current_squad = squad
-                st.success(f"Squad found! Total cost: £{squad.total_price:.1f}M | xPts: {squad.total_expected_points:.1f}")
+                st.session_state.xpts_model_label = model_label
+                st.success(f"Squad found! Total cost: £{squad.total_price:.1f}M | xPts: {squad.total_expected_points:.1f} ({model_label})")
 
     if st.session_state.current_squad:
         squad = st.session_state.current_squad
 
         col_a, col_b, col_c = st.columns(3)
-        col_a.metric("Total Cost", f"£{squad.total_price:.1f}M", delta=f"{budget - squad.total_price:.1f}M left")
+        col_a.metric("Total Cost", f"£{squad.total_price:.1f}M", delta=f"£{budget - squad.total_price:.1f}M unused")
         col_b.metric("Expected Points", f"{squad.total_expected_points:.1f}")
         cap = next((p for p in squad.players if p.id == squad.captain_id), None)
         col_c.metric("Captain", cap.name if cap else "—", delta=f"2× {cap.expected_points:.1f} = {cap.expected_points*2:.1f} pts" if cap else "")

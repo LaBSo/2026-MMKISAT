@@ -9,7 +9,9 @@ class Player:
     team: str          # country code e.g. "FIN"
     position: str      # GK, DEF, MID, FWD
     price: float       # in millions
-    expected_points: float = 0.0
+    expected_points: float = 0.0   # whichever model is active (set before optimization)
+    xpts_round: float = 0.0        # current GW only
+    xpts_total: float = 0.0        # full tournament (probability-weighted)
     total_points: int = 0
     form: float = 0.0  # recent avg points
     # raw stats for scoring model

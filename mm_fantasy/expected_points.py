@@ -60,8 +60,10 @@ SHOTS_ON_TARGET = {"GK": 0.5, "DEF": 0.3, "MID": 0.5, "FWD": 0.9}
 
 # Yellow card rate per game (roughly 0.10 per player per game at WC)
 YELLOW_RATE = 0.10
-# Goals conceded per game average used when xG is unknown
-FALLBACK_XG = 1.3
+# Goals per team per game used when a match has no xG data.
+# Updated dynamically by convert_json.py from the real xG values in real_matches.json.
+# Falls back to historical WC average (~1.35) if no real data is available yet.
+FALLBACK_XG = 1.35
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -125,23 +127,23 @@ def estimate_xpts(
     p_plays = LINEUP_PROB.get(lineup, DEFAULT_LINEUP_PROB)
     p_60 = p_plays * LINEUP_P60_GIVEN_PLAYS.get(lineup, DEFAULT_P60)
 
-    if not match or not real_team_ids:
-        # No match data — minimal estimate based on lineup prob only
-        base = p_plays * 1 + p_60 * 1
-        return round(base, 2)
-
-    details = match.get("details", {})
-    odds = details.get("odds", {})
-    xg = details.get("expectedGoals", [0.0, 0.0])
-    xg_home, xg_away = float(xg[0]) if xg else 0.0, float(xg[1]) if xg else 0.0
-
-    is_home = (team_id == real_team_ids[0])
-    xg_for    = (xg_home if is_home else xg_away)   or FALLBACK_XG
-    xg_against = (xg_away if is_home else xg_home)  or FALLBACK_XG
-
-    p_win, p_draw, p_loss = _odds_to_probs(odds)
-    if not is_home:
-        p_win, p_loss = p_loss, p_win   # flip perspective to player's team
+    if match and real_team_ids:
+        details = match.get("details", {})
+        odds = details.get("odds", {})
+        xg = details.get("expectedGoals", [0.0, 0.0])
+        xg_home = float(xg[0]) if xg else 0.0
+        xg_away = float(xg[1]) if xg else 0.0
+        is_home = (team_id == real_team_ids[0])
+        xg_for     = (xg_home if is_home else xg_away)  or FALLBACK_XG
+        xg_against = (xg_away if is_home else xg_home)  or FALLBACK_XG
+        p_win, p_draw, p_loss = _odds_to_probs(odds)
+        if not is_home:
+            p_win, p_loss = p_loss, p_win   # flip perspective to player's team
+    else:
+        # No match data — use tournament averages as neutral baseline
+        xg_for     = FALLBACK_XG
+        xg_against = FALLBACK_XG
+        p_win = p_draw = p_loss = 1 / 3
 
     p_cs = _cs_prob(xg_against)
 
