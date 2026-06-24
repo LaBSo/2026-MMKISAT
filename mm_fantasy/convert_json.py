@@ -162,6 +162,10 @@ def load(json_path: str, csv_path: str):
     print(f"  (flat) GW4={flat_advance[4]:.2f}  GW5={flat_advance[5]:.2f}  "
           f"GW6={flat_advance[6]:.2f}  GW7={flat_advance[7]:.2f}  GW8={flat_advance[8]:.2f}\n")
 
+    # Current round from the data file (e.g. 2 = GW2)
+    current_round = int(data.get("round") or 1)
+    print(f"Current round from data: GW{current_round}")
+
     choices = data.get("playerChoices", [])
     print(f"Found {len(choices)} playerChoice entries")
 
@@ -189,14 +193,26 @@ def load(json_path: str, csv_path: str):
         lineup      = pc.get("lineup", "unexpected")
         player_id   = pc["id"]
 
+        # Cumulative tournament stats from totalStats (populated after matches played)
+        stats = pc.get("totalStats") or pc.get("avgStats") or {}
+        s_mins    = int(stats.get("minutesPlayed", 0))
+        s_goals   = int(stats.get("goal", 0))
+        s_assists = int(stats.get("assist", 0))
+        s_cs      = int(stats.get("cleanSheet", 0))
+        s_shots   = int(stats.get("shotOnTarget", 0))
+        s_saves   = int(stats.get("save", 0))
+        s_concede = int(stats.get("concededGoal", 0))
+        s_yellow  = int(stats.get("yellowCard", 0))
+        s_red     = int(stats.get("redCard", 0))
+
         tid = pc["realTeamId"]
 
-        # Model 1 — current round only (GW1 match data if available)
-        gw1_match = team_gw_map[tid].get(1)
-        gw1_tids  = gw1_match["realTeamIds"] if gw1_match else None
+        # Model 1 — current round xPts (uses match data for the active round)
+        cur_match = team_gw_map[tid].get(current_round)
+        cur_tids  = cur_match["realTeamIds"] if cur_match else None
         xpts_round = estimate_xpts(
             position=position, lineup=lineup,
-            team_id=tid, match=gw1_match, real_team_ids=gw1_tids,
+            team_id=tid, match=cur_match, real_team_ids=cur_tids,
         )
 
         # Model 2 — full tournament (GW1-8, team-specific advancement probs)
@@ -223,13 +239,24 @@ def load(json_path: str, csv_path: str):
             "lineup":      lineup,
             "xPtsRound":   round(xpts_round, 2),
             "xPts":        xpts_total,
+            "mins":        s_mins,
+            "goals":       s_goals,
+            "assists":     s_assists,
+            "cleanSheet":  s_cs,
+            "shotsOnTarget": s_shots,
+            "saves":       s_saves,
+            "conceded":    s_concede,
+            "yellowCards": s_yellow,
+            "redCards":    s_red,
         })
 
     pos_order = {"GK": 0, "DEF": 1, "MID": 2, "FWD": 3}
     rows.sort(key=lambda r: (pos_order.get(r["position"], 9), -r["xPts"]))
 
     fieldnames = ["id", "name", "position", "team", "price",
-                  "totalPoints", "form", "lastPoints", "lineup", "xPtsRound", "xPts"]
+                  "totalPoints", "form", "lastPoints", "lineup", "xPtsRound", "xPts",
+                  "mins", "goals", "assists", "cleanSheet", "shotsOnTarget",
+                  "saves", "conceded", "yellowCards", "redCards"]
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -246,12 +273,20 @@ def load(json_path: str, csv_path: str):
         print(f"\nTop {pos} (tournament):")
         for r in top:
             print(f"  {r['name']:<25} {r['team']}  £{r['price']}M  "
-                  f"GW1={r['xPtsRound']:.2f}  total={r['xPts']:.2f}")
+                  f"GW{current_round}={r['xPtsRound']:.2f}  total={r['xPts']:.2f}")
 
 
 if __name__ == "__main__":
     script_dir   = os.path.dirname(os.path.abspath(__file__))
-    default_json = os.path.join(script_dir, "..", "players.json")
+    # Prefer players_data.json (richer GW2+ data); fall back to players.json
+    for candidate in ("players_data.json", "players.json"):
+        candidate_path = os.path.join(script_dir, "..", candidate)
+        if os.path.exists(candidate_path):
+            default_json = candidate_path
+            print(f"Using {candidate}")
+            break
+    else:
+        default_json = os.path.join(script_dir, "..", "players_data.json")
     default_csv  = os.path.join(script_dir, "mm_players.csv")
 
     json_path = sys.argv[1] if len(sys.argv) > 1 else default_json

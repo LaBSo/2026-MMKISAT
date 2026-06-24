@@ -12,17 +12,20 @@ class Player:
     expected_points: float = 0.0   # whichever model is active (set before optimization)
     xpts_round: float = 0.0        # current GW only
     xpts_total: float = 0.0        # full tournament (probability-weighted)
+    last_points: float = 0.0       # actual points scored last round
     total_points: int = 0
-    form: float = 0.0  # recent avg points
-    # raw stats for scoring model
+    form: float = 0.0
+    lineup: str = "unknown"
+    # Actual match stats (populated from avgStats after matches played)
+    mins: int = 0
     goals: int = 0
     assists: int = 0
     clean_sheets: int = 0
+    shots_on_target: int = 0
     saves: int = 0
-    minutes: int = 0
+    conceded: int = 0
     yellow_cards: int = 0
     red_cards: int = 0
-    shots_on_target: int = 0
     image_url: Optional[str] = None
 
 

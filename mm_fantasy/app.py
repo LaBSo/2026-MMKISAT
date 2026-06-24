@@ -267,7 +267,18 @@ def _load_csv(path) -> list[Player]:
             p.form     if p.form     > 0 else
             max(1.0, p.price * 0.6)
         )
-        p.lineup = str(row.get("lineup", "unknown"))
+        p.lineup       = str(row.get("lineup", "unknown"))
+        p.last_points  = float(row.get("lastPoints", 0) or 0)
+        # Actual match stats (0 if the player hasn't played yet)
+        p.mins         = int(row.get("mins", 0) or 0)
+        p.goals        = int(row.get("goals", 0) or 0)
+        p.assists      = int(row.get("assists", 0) or 0)
+        p.clean_sheets = int(row.get("cleanSheet", 0) or 0)
+        p.shots_on_target = int(row.get("shotsOnTarget", 0) or 0)
+        p.saves        = int(row.get("saves", 0) or 0)
+        p.conceded     = int(row.get("conceded", 0) or 0)
+        p.yellow_cards = int(row.get("yellowCards", 0) or 0)
+        p.red_cards    = int(row.get("redCards", 0) or 0)
         players.append(p)
     return players
 
@@ -296,17 +307,33 @@ def player_df(players: list[Player]) -> pd.DataFrame:
     _, grp_map = load_match_data()
     rows = []
     for p in players:
+        # Build a short stats summary string for players who have played
+        stats_parts = []
+        if p.goals:        stats_parts.append(f"⚽{p.goals}")
+        if p.assists:      stats_parts.append(f"🅰️{p.assists}")
+        if p.clean_sheets: stats_parts.append("🧤CS")
+        if p.shots_on_target: stats_parts.append(f"🎯{p.shots_on_target}")
+        if p.saves:        stats_parts.append(f"🛡️{p.saves}")
+        if p.conceded:     stats_parts.append(f"⛔{p.conceded}")
+        if p.yellow_cards: stats_parts.append(f"🟨{p.yellow_cards}")
+        if p.red_cards:    stats_parts.append(f"🟥{p.red_cards}")
+        stats_str = " ".join(stats_parts) if stats_parts else "—"
+
         rows.append({
             "ID": p.id,
             "Name": p.name,
-            "Joukkue": team_display(p.team),   # flag + Finnish name
-            "Lyhenne": team_short(p.team),      # flag + 3-letter code (for compact views)
-            "Team": p.team,                     # raw abbr for internal use
+            "Joukkue": team_display(p.team),
+            "Lyhenne": team_short(p.team),
+            "Team": p.team,
             "Group": grp_map.get(p.team, "—"),
             "Pos": p.position,
             "Lineup": getattr(p, "lineup", "—"),
             "Price (M)": p.price,
-            "xPts": round(p.expected_points, 1),
+            "Pts": round(p.last_points, 1) if p.mins > 0 else None,
+            "Min": p.mins if p.mins > 0 else None,
+            "Tilastot": stats_str,
+            "xPts": round(p.xpts_round, 1),
+            "xPts tot": round(p.xpts_total, 1),
             "Pts/M": round(points_value_ratio(p), 2),
         })
     return pd.DataFrame(rows).sort_values(["Pos", "xPts"], key=lambda s: s.map(POS_ORDER) if s.name == "Pos" else -s)
@@ -501,7 +528,7 @@ with tab_players:
     with col_f2:
         max_price = st.slider("Max price (M€)", 4.0, 15.0, 15.0, 0.5)
     with col_f3:
-        sort_by = st.selectbox("Sort by", ["xPts", "Price (M)", "Pts/M", "Name"])
+        sort_by = st.selectbox("Sort by", ["xPts", "xPts tot", "Pts", "Price (M)", "Pts/M", "Name"])
     with col_f4:
         _, _pgrp_map = load_match_data()
         grp_labels = sorted({v for v in _pgrp_map.values()})
@@ -523,7 +550,7 @@ with tab_players:
         column_config={
             "Joukkue": st.column_config.TextColumn("Joukkue"),
             "Group": st.column_config.TextColumn("Lohko"),
-            "Pos": st.column_config.TextColumn("Pelipaikka"),
+            "Pos": st.column_config.TextColumn("Pos"),
             "Lineup": st.column_config.TextColumn(
                 "Kokoonpano",
                 help=(
@@ -531,25 +558,37 @@ with tab_players:
                     "• expected — todennäköinen aloittaja (82 % pelaa)\n"
                     "• possible — kiertopelissä / epävarma (50 %)\n"
                     "• unexpected — vaihtopelaaja (12 %)\n"
-                    "• injured — loukkaantunut (2 %)"
+                    "• injured — loukkaantunut (2 %)\n"
+                    "• suspended — jäähy / ei pelaa"
                 ),
             ),
             "Price (M)": st.column_config.NumberColumn(
-                "Hinta (M€)",
-                format="£%.1fM",
+                "Hinta (M€)", format="£%.1fM",
                 help="Pelaajan hinta miljoonissa euroissa. Budjetti on 110 M€ 15 pelaajalle.",
+            ),
+            "Pts": st.column_config.NumberColumn(
+                "Pisteet",
+                help="Pelaajan todelliset pisteet viimeisimmältä kierrokselta. Tyhjä = ei pelattu vielä.",
+                format="%.1f",
+            ),
+            "Min": st.column_config.NumberColumn(
+                "Min", help="Pelatut minuutit kierroksella 1.",
+            ),
+            "Tilastot": st.column_config.TextColumn(
+                "Tilastot GW1",
+                help="⚽ maalit · 🅰️ syötöt · 🧤 CS (puhdas peli) · 🎯 maalilaukaukset · 🛡️ torjunnat · ⛔ päästetyt maalit · 🟨🟥 kortit",
             ),
             "xPts": st.column_config.NumberColumn(
                 "Odotetut pisteet",
-                help=(
-                    "Mallin ennustama pistemäärä ennen ottelua.\n"
-                    "Laskettu: kokoonpanotodennäköisyys × veikkauskerroin × xG-data (Poisson).\n"
-                    "Maalivahti/puolustaja saa lisää CS%-bonuksesta."
-                ),
+                help="Mallin ennustama pistemäärä seuraavaan otteluun.\nLaskettu: kokoonpanotodennäköisyys × veikkauskerroin × xG (Poisson).",
+            ),
+            "xPts tot": st.column_config.NumberColumn(
+                "xPts turnaus",
+                help="Odotetut pisteet koko turnaukselle (GW1-8), painotettuna etenemistodennäköisyydellä.",
             ),
             "Pts/M": st.column_config.NumberColumn(
                 "Pisteet / £M",
-                help="Odotetut pisteet jaettuna hinnalla — mittaa pelaajan arvo-hinta-suhdetta. Korkeampi = parempi arvo.",
+                help="Odotetut pisteet jaettuna hinnalla — arvo-hinta-suhde. Korkeampi = parempi arvo.",
             ),
         },
     )

@@ -8,11 +8,11 @@ from models import Player
 
 def estimate_points_per_game(p: Player, games_in_round: int = 1) -> float:
     """Estimate expected fantasy points for a player in a single game."""
-    if p.minutes == 0:
+    if p.mins == 0:
         return 0.0
 
-    games_played = max(1, p.minutes // 90)
-    avg_min = p.minutes / games_played
+    games_played = max(1, p.mins // 90)
+    avg_min = p.mins / games_played
 
     pts = 0.0
 

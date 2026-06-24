@@ -28,6 +28,7 @@ LINEUP_PROB = {
     "possible":   0.50,   # rotation / injury doubt
     "unexpected": 0.12,   # squad player, unlikely to start
     "injured":    0.02,
+    "suspended":  0.00,   # cannot play this round
 }
 DEFAULT_LINEUP_PROB = 0.12
 
@@ -38,6 +39,7 @@ LINEUP_P60_GIVEN_PLAYS = {
     "possible":   0.62,
     "unexpected": 0.35,
     "injured":    0.20,
+    "suspended":  0.00,
 }
 DEFAULT_P60 = 0.35
 
